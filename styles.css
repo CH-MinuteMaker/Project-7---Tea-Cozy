@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    border: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 50px;;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    font-size: 1.5em;
+    color: seashell;
+}
+
+.navbar li {
+    margin-right: 30px;
+    text-decoration: underline;
+}
+
+.navbar li:last-child {
+    margin-right: 20px;
+}
+
+body {
+    opacity: 0.9;
+}
+
+p {
+    color: seashell;
+    font-size: 22px;
+}
+
+h2 {
+    color: seashell;
+}
+
+h4 {
+    color: seashell;
+}
+
+.mission {
+    height: 700px;
+    text-align: center;
+}
