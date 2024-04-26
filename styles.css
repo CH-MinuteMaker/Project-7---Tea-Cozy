@@ -6,8 +6,32 @@
     background-color: #000;
 }
 
+/* General styles */
+
+body {
+    opacity: 0.9;
+}
+
+p {
+    color: seashell;
+    font-size: 22px;
+}
+
+h2 {
+    color: seashell;
+    font-size: 34px;
+}
+
+h4 {
+    color: seashell;
+    font-size: 20px;
+}
+
+/* Header and Navbar */
+
 header {
     display: flex;
+    flex-wrap: wrap;
     position: fixed;
     align-items: center;
     justify-content: space-between;
@@ -28,6 +52,7 @@ header {
 .navbar {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     font-size: 1.5em;
     color: seashell;
 }
@@ -41,28 +66,46 @@ header {
     margin-right: 20px;
 }
 
-body {
-    opacity: 0.9;
+
+/* Section 1 - Mission */
+
+.mission {
+    text-align: center;
+    position: relative;
+    height: 700px;
 }
 
-p {
-    color: seashell;
-    font-size: 22px;
+.mission img {
+    margin-top: 69px;
+    width: 1200px;
+    height: 700px;
 }
 
-h2 {
-    color: seashell;
+.mission h2 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding: 20px 0px 10px 0px;
 }
 
-h4 {
-    color: seashell;
+.mission h4 {
+    position: absolute;
+    top: 59%;
+    width: 100%;
+    padding: 10px 0px 20px 0px;
 }
 
-.mission_image {
+/* Section 2 - Tea of the Month */
+
+.monthly {
+    position: relative;
+    top: 15%;
     text-align: center;
 }
 
-.mission_image img {
-    position: relative;
-    margin-top: 100px;
+.categories {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
 }
