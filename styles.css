@@ -14,12 +14,17 @@ body {
 
 p {
     color: seashell;
-    font-size: 2px;
+    font-size: 22px;
 }
 
 h2 {
     color: seashell;
     font-size: 2.5em;
+}
+
+h3 {
+    color: seashell;
+    font-size: 1.8em;
 }
 
 h4 {
@@ -126,4 +131,24 @@ header {
 
 .categories h4 {
     margin: 10px 0px;
+}
+
+/* Section 3 - Locations */
+
+.locations {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.locations img {
+    width: 1200px;
+    max-height: 500px;
+}
+
+.venues {
+    display: inline-block;
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
 }
