@@ -14,17 +14,17 @@ body {
 
 p {
     color: seashell;
-    font-size: 22px;
+    font-size: 2px;
 }
 
 h2 {
     color: seashell;
-    font-size: 34px;
+    font-size: 2.5em;
 }
 
 h4 {
     color: seashell;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 /* Header and Navbar */
@@ -99,13 +99,31 @@ header {
 
 .monthly {
     position: relative;
-    top: 15%;
+    width: 100%;
+    top: 10%;
     text-align: center;
 }
 
-.categories {
+.monthly .heading {
+    margin-bottom: 20px;
+}
+
+.monthly-container {
+    margin-top: 20px;
+    margin: auto;
+    max-width: 1000px;
     display: flex;
-    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.categories img {
     height: 200px;
+    width: 300px;
     margin: 10px;
+}
+
+.categories h4 {
+    margin: 10px 0px;
 }
