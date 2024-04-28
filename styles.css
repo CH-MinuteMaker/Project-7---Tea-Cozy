@@ -32,6 +32,11 @@ h4 {
     font-size: 1.25em;
 }
 
+h5 {
+    color: seashell;
+    font-size: 1em;
+}
+
 /* Header and Navbar */
 
 header {
@@ -143,10 +148,12 @@ header {
     left: 50%;
     transform: translate(-50%);
     width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .locations img {
-    display: block;
+    display: inline-block;
     width: 100%;
     max-height: 500px;
 }
@@ -158,11 +165,46 @@ header {
     transform: translate(-50%);
 }
 
-.venues {
-    border: 1px solid white;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
+.overlay {
     position: absolute;
     top: 30%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    flex-wrap: wrap;
+}
+
+.venues {
+    width: 300px;
+    min-height: 300px;
+    text-align: center;
+    line-height: 4em;
+    padding-top: 20px;
+
+/*     display: inline-block;
+    position: absolute;
+    top: 30%; */
+}
+
+/* Section - Contact */
+
+.contact {
+    position: relative;
+    top: 20%;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Section - Footer */
+
+footer {
+    position: relative;
+    top: 25%;
 }
